@@ -28,7 +28,7 @@ export function Footer() {
               </span>
             </a>
             <a
-              href="/contact"
+              href="mailto:jhumer@mensci.bio"
               className="mx-3 font-bold hover:text-primary transition-colors"
             >
               Contact Us
