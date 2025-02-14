@@ -9,17 +9,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#FF5349",
+        "primary-muted": "#FF8C86",
+        "primary-dark": "#CC4239",
+        gray: {
+          50: "#FAFAFA",
+          100: "#F5F5F5",
+          200: "#EEEEEE",
+          300: "#E0E0E0",
+          400: "#BDBDBD",
+        },
+        black: "#1A1A1A",
+        white: "#FFFFFF",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      colors: {
-        "accent-1": "#FAFAFA",
-        "accent-2": "#EAEAEA",
-        "accent-7": "#333",
-        success: "#0070f3",
-        cyan: "#79FFE1",
       },
       spacing: {
         28: "7rem",
