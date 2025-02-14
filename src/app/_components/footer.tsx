@@ -24,7 +24,7 @@ export function Footer() {
                 Stay Updated
               </span>
               <span className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-center px-2 text-sm">
-                Stay up to date on MenSCi Bio's development by subscribing to our newsletter
+                Stay Updated on MenSCi Bio's development by subscribing to our newsletter
               </span>
             </a>
             <a
