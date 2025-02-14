@@ -17,6 +17,17 @@ export function Footer() {
               Learn More
             </a>
             <a
+              href="https://menscibio-newsletter.beehiiv.com/subscribe"
+              className="mx-3 bg-primary hover:bg-primary-dark text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0 group relative"
+            >
+              <span className="group-hover:opacity-0 transition-opacity duration-200">
+                Stay Updated
+              </span>
+              <span className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-center px-2 text-sm">
+                Stay up to date on MenSCi Bio's development by subscribing to our newsletter
+              </span>
+            </a>
+            <a
               href="/contact"
               className="mx-3 font-bold hover:text-primary transition-colors"
             >
